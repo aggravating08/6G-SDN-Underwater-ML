@@ -2,6 +2,13 @@
 
 ## Learning-Assisted Controller Selection with Autonomous Underwater Vehicles
 
+## Author and affiliation
+
+**Asiya Ali Khan**
+
+School of Electrical Engineering and Computer Science (SEECS), National
+University of Sciences and Technology (NUST), Islamabad, Pakistan.
+
 This repository contains an ns-3.38 analytical simulation of hierarchical
 software-defined underwater networking and a machine-learning pipeline for
 selecting one optimal controller from four mobile AUV candidates. The study
