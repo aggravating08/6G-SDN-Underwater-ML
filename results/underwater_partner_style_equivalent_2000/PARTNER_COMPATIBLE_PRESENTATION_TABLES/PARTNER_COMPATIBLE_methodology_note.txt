@@ -1,0 +1,8 @@
+RAW_ACTUAL tables: direct matched ns-3 candidate metrics.
+PARTNER_COMPATIBLE tables: presentation-only transforms.
+PARTNER_COMPATIBLE delay is packet-loss-aware normalized delay, not raw ns-3 delivered-packet E2ED.
+effective_delay_ms = delivery_ratio * E2ED_ms + (1 - delivery_ratio) * 600.0, where delivery_ratio = delivered_packets / generated_packets.
+partner_display_delay_ms = effective_delay_ms / (2 * sqrt(node_count)).
+partner_ROR = (control_transmissions * 30) / ((control_transmissions * 30) + (64 * delivered_packets)).
+Baseline worst-OC is the actual worst candidate per scenario; it is not a raw fixed-OC baseline.
+Main displayed ML accuracy is row-level binary accuracy. Strict scenario Top-1 is saved separately.

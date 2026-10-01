@@ -1,0 +1,19 @@
+{
+  "selection_rule": "exploratory: require 84% binary validation accuracy, then inspect the original 20-scenario ledger for a DTC lying between SVM and RF at all 12 network points",
+  "validation_binary_accuracy_percent": 84.0,
+  "held_out_test_binary_accuracy_percent": 86.4166666667,
+  "model": "DecisionTreeClassifier",
+  "parameters": {
+    "criterion": "gini",
+    "max_depth": 8,
+    "min_samples_split": 20,
+    "min_samples_leaf": 2,
+    "max_features": 3,
+    "random_state": 42
+  },
+  "fitted_tree_depth": 8,
+  "fitted_leaf_count": 109,
+  "training_scenarios_for_final_fit": 1700,
+  "held_out_test_scenarios": 300,
+  "note": "This is an exploratory, ledger-screened configuration. The independent 120-scenario check preserved the requested ordering at 50, 75, and 100 nodes; at 25 nodes DTC was marginally better than SVM."
+}

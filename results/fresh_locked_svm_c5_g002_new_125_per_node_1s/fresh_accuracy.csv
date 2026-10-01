@@ -1,0 +1,4 @@
+model,binary_accuracy_percent,top1_accuracy_percent
+SVM,86.2,87.0
+DTC,85.45,79.80000000000001
+RF-15,77.60000000000001,76.8

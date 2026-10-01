@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="940" viewBox="0 0 1500 940">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.title{font-size:25px;font-weight:700}.label{font-size:17px}.tick{font-size:14px}.legend{font-size:15px}</style>
+<text x="413.0" y="45.0" text-anchor="middle" class="title">PDR vs Number of Nodes</text>
+<line x1="111" y1="372.0" x2="715" y2="372.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="377.0" text-anchor="end" class="tick">0</text>
+<line x1="111" y1="311.2" x2="715" y2="311.2" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="316.2" text-anchor="end" class="tick">20</text>
+<line x1="111" y1="250.4" x2="715" y2="250.4" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="255.4" text-anchor="end" class="tick">40</text>
+<line x1="111" y1="189.6" x2="715" y2="189.6" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="194.6" text-anchor="end" class="tick">60</text>
+<line x1="111" y1="128.8" x2="715" y2="128.8" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="133.8" text-anchor="end" class="tick">80</text>
+<line x1="111" y1="68.0" x2="715" y2="68.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="73.0" text-anchor="end" class="tick">100</text>
+<line x1="111" y1="68" x2="111" y2="372" stroke="#111" stroke-width="1.5"/>
+<line x1="111" y1="372" x2="715" y2="372" stroke="#111" stroke-width="1.5"/>
+<polyline points="111.0,294.2 312.3,153.1 513.7,95.7 715.0,99.6" fill="none" stroke="#d62728" stroke-width="3.5"/>
+<rect x="106.0" y="289.2" width="10" height="10" fill="#d62728"/>
+<rect x="307.3" y="148.1" width="10" height="10" fill="#d62728"/>
+<rect x="508.7" y="90.7" width="10" height="10" fill="#d62728"/>
+<rect x="710.0" y="94.6" width="10" height="10" fill="#d62728"/>
+<polyline points="111.0,323.1 312.3,185.6 513.7,108.4 715.0,117.6" fill="none" stroke="#ff7f0e" stroke-width="3.5"/>
+<circle cx="111.0" cy="323.1" r="5.5" fill="#ff7f0e"/>
+<circle cx="312.3" cy="185.6" r="5.5" fill="#ff7f0e"/>
+<circle cx="513.7" cy="108.4" r="5.5" fill="#ff7f0e"/>
+<circle cx="715.0" cy="117.6" r="5.5" fill="#ff7f0e"/>
+<polyline points="111.0,295.1 312.3,195.4 513.7,102.0 715.0,115.7" fill="none" stroke="#1f77b4" stroke-width="3.5"/>
+<circle cx="111.0" cy="295.1" r="5.5" fill="#1f77b4"/>
+<circle cx="312.3" cy="195.4" r="5.5" fill="#1f77b4"/>
+<circle cx="513.7" cy="102.0" r="5.5" fill="#1f77b4"/>
+<circle cx="715.0" cy="115.7" r="5.5" fill="#1f77b4"/>
+<polyline points="111.0,331.3 312.3,208.4 513.7,151.3 715.0,174.1" fill="none" stroke="#b52b65" stroke-width="3.5"/>
+<polygon points="111.0,325.3 117.0,331.3 111.0,337.3 105.0,331.3" fill="#b52b65"/>
+<polygon points="312.3,202.4 318.3,208.4 312.3,214.4 306.3,208.4" fill="#b52b65"/>
+<polygon points="513.7,145.3 519.7,151.3 513.7,157.3 507.7,151.3" fill="#b52b65"/>
+<polygon points="715.0,168.1 721.0,174.1 715.0,180.1 709.0,174.1" fill="#b52b65"/>
+<text x="111.0" y="398.0" text-anchor="middle" class="label">25</text>
+<text x="312.3" y="398.0" text-anchor="middle" class="label">50</text>
+<text x="513.7" y="398.0" text-anchor="middle" class="label">75</text>
+<text x="715.0" y="398.0" text-anchor="middle" class="label">100</text>
+<line x1="127" y1="87" x2="150" y2="87" stroke="#d62728" stroke-width="3"/>
+<rect x="134.0" y="82.0" width="10" height="10" fill="#d62728"/>
+<text x="158.0" y="92.0" text-anchor="start" class="legend">SVM</text>
+<line x1="127" y1="109" x2="150" y2="109" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="139.0" cy="109.0" r="5.5" fill="#ff7f0e"/>
+<text x="158.0" y="114.0" text-anchor="start" class="legend">DTC</text>
+<line x1="127" y1="131" x2="150" y2="131" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="139.0" cy="131.0" r="5.5" fill="#1f77b4"/>
+<text x="158.0" y="136.0" text-anchor="start" class="legend">RF</text>
+<line x1="127" y1="153" x2="150" y2="153" stroke="#b52b65" stroke-width="3"/>
+<polygon points="139.0,147.0 145.0,153.0 139.0,159.0 133.0,153.0" fill="#b52b65"/>
+<text x="158.0" y="158.0" text-anchor="start" class="legend">Worst-OC baseline</text>
+<text x="413.0" y="429.0" text-anchor="middle" class="label">Number of nodes</text>
+<text x="49" y="220.0" class="label" text-anchor="middle" transform="rotate(-90 49 220.0)">Packet delivery ratio (%)</text>
+<text x="1158.0" y="45.0" text-anchor="middle" class="title">Loss-aware Delay vs Number of Nodes</text>
+<line x1="856" y1="372.0" x2="1460" y2="372.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="377.0" text-anchor="end" class="tick">0</text>
+<line x1="856" y1="311.2" x2="1460" y2="311.2" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="316.2" text-anchor="end" class="tick">1912</text>
+<line x1="856" y1="250.4" x2="1460" y2="250.4" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="255.4" text-anchor="end" class="tick">3823</text>
+<line x1="856" y1="189.6" x2="1460" y2="189.6" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="194.6" text-anchor="end" class="tick">5735</text>
+<line x1="856" y1="128.8" x2="1460" y2="128.8" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="133.8" text-anchor="end" class="tick">7647</text>
+<line x1="856" y1="68.0" x2="1460" y2="68.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="73.0" text-anchor="end" class="tick">9558</text>
+<line x1="856" y1="68" x2="856" y2="372" stroke="#111" stroke-width="1.5"/>
+<line x1="856" y1="372" x2="1460" y2="372" stroke="#111" stroke-width="1.5"/>
+<polyline points="856.0,133.6 1057.3,275.6 1258.7,335.6 1460.0,332.1" fill="none" stroke="#d62728" stroke-width="3.5"/>
+<rect x="851.0" y="128.6" width="10" height="10" fill="#d62728"/>
+<rect x="1052.3" y="270.6" width="10" height="10" fill="#d62728"/>
+<rect x="1253.7" y="330.6" width="10" height="10" fill="#d62728"/>
+<rect x="1455.0" y="327.1" width="10" height="10" fill="#d62728"/>
+<polyline points="856.0,104.2 1057.3,242.6 1258.7,322.6 1460.0,313.6" fill="none" stroke="#ff7f0e" stroke-width="3.5"/>
+<circle cx="856.0" cy="104.2" r="5.5" fill="#ff7f0e"/>
+<circle cx="1057.3" cy="242.6" r="5.5" fill="#ff7f0e"/>
+<circle cx="1258.7" cy="322.6" r="5.5" fill="#ff7f0e"/>
+<circle cx="1460.0" cy="313.6" r="5.5" fill="#ff7f0e"/>
+<polyline points="856.0,132.6 1057.3,232.9 1258.7,329.2 1460.0,315.7" fill="none" stroke="#1f77b4" stroke-width="3.5"/>
+<circle cx="856.0" cy="132.6" r="5.5" fill="#1f77b4"/>
+<circle cx="1057.3" cy="232.9" r="5.5" fill="#1f77b4"/>
+<circle cx="1258.7" cy="329.2" r="5.5" fill="#1f77b4"/>
+<circle cx="1460.0" cy="315.7" r="5.5" fill="#1f77b4"/>
+<polyline points="856.0,95.6 1057.3,219.4 1258.7,278.8 1460.0,255.9" fill="none" stroke="#b52b65" stroke-width="3.5"/>
+<polygon points="856.0,89.6 862.0,95.6 856.0,101.6 850.0,95.6" fill="#b52b65"/>
+<polygon points="1057.3,213.4 1063.3,219.4 1057.3,225.4 1051.3,219.4" fill="#b52b65"/>
+<polygon points="1258.7,272.8 1264.7,278.8 1258.7,284.8 1252.7,278.8" fill="#b52b65"/>
+<polygon points="1460.0,249.9 1466.0,255.9 1460.0,261.9 1454.0,255.9" fill="#b52b65"/>
+<text x="856.0" y="398.0" text-anchor="middle" class="label">25</text>
+<text x="1057.3" y="398.0" text-anchor="middle" class="label">50</text>
+<text x="1258.7" y="398.0" text-anchor="middle" class="label">75</text>
+<text x="1460.0" y="398.0" text-anchor="middle" class="label">100</text>
+<line x1="872" y1="87" x2="895" y2="87" stroke="#d62728" stroke-width="3"/>
+<rect x="879.0" y="82.0" width="10" height="10" fill="#d62728"/>
+<text x="903.0" y="92.0" text-anchor="start" class="legend">SVM</text>
+<line x1="872" y1="109" x2="895" y2="109" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="884.0" cy="109.0" r="5.5" fill="#ff7f0e"/>
+<text x="903.0" y="114.0" text-anchor="start" class="legend">DTC</text>
+<line x1="872" y1="131" x2="895" y2="131" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="884.0" cy="131.0" r="5.5" fill="#1f77b4"/>
+<text x="903.0" y="136.0" text-anchor="start" class="legend">RF</text>
+<line x1="872" y1="153" x2="895" y2="153" stroke="#b52b65" stroke-width="3"/>
+<polygon points="884.0,147.0 890.0,153.0 884.0,159.0 878.0,153.0" fill="#b52b65"/>
+<text x="903.0" y="158.0" text-anchor="start" class="legend">Worst-OC baseline</text>
+<text x="1158.0" y="429.0" text-anchor="middle" class="label">Number of nodes</text>
+<text x="794" y="220.0" class="label" text-anchor="middle" transform="rotate(-90 794 220.0)">Completion delay with 10 s loss timeout (ms)</text>
+<text x="413.0" y="495.0" text-anchor="middle" class="title">ROR vs Number of Nodes</text>
+<line x1="111" y1="822.0" x2="715" y2="822.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="827.0" text-anchor="end" class="tick">0.00</text>
+<line x1="111" y1="761.2" x2="715" y2="761.2" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="766.2" text-anchor="end" class="tick">0.20</text>
+<line x1="111" y1="700.4" x2="715" y2="700.4" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="705.4" text-anchor="end" class="tick">0.40</text>
+<line x1="111" y1="639.6" x2="715" y2="639.6" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="644.6" text-anchor="end" class="tick">0.60</text>
+<line x1="111" y1="578.8" x2="715" y2="578.8" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="583.8" text-anchor="end" class="tick">0.80</text>
+<line x1="111" y1="518.0" x2="715" y2="518.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="102.0" y="523.0" text-anchor="end" class="tick">1.00</text>
+<line x1="111" y1="518" x2="111" y2="822" stroke="#111" stroke-width="1.5"/>
+<line x1="111" y1="822" x2="715" y2="822" stroke="#111" stroke-width="1.5"/>
+<polyline points="111.0,691.7 312.3,774.5 513.7,772.7 715.0,766.2" fill="none" stroke="#d62728" stroke-width="3.5"/>
+<rect x="106.0" y="686.7" width="10" height="10" fill="#d62728"/>
+<rect x="307.3" y="769.5" width="10" height="10" fill="#d62728"/>
+<rect x="508.7" y="767.7" width="10" height="10" fill="#d62728"/>
+<rect x="710.0" y="761.2" width="10" height="10" fill="#d62728"/>
+<polyline points="111.0,615.1 312.3,757.5 513.7,766.8 715.0,756.9" fill="none" stroke="#ff7f0e" stroke-width="3.5"/>
+<circle cx="111.0" cy="615.1" r="5.5" fill="#ff7f0e"/>
+<circle cx="312.3" cy="757.5" r="5.5" fill="#ff7f0e"/>
+<circle cx="513.7" cy="766.8" r="5.5" fill="#ff7f0e"/>
+<circle cx="715.0" cy="756.9" r="5.5" fill="#ff7f0e"/>
+<polyline points="111.0,671.3 312.3,749.1 513.7,769.0 715.0,759.4" fill="none" stroke="#1f77b4" stroke-width="3.5"/>
+<circle cx="111.0" cy="671.3" r="5.5" fill="#1f77b4"/>
+<circle cx="312.3" cy="749.1" r="5.5" fill="#1f77b4"/>
+<circle cx="513.7" cy="769.0" r="5.5" fill="#1f77b4"/>
+<circle cx="715.0" cy="759.4" r="5.5" fill="#1f77b4"/>
+<polyline points="111.0,610.8 312.3,737.9 513.7,741.6 715.0,725.8" fill="none" stroke="#b52b65" stroke-width="3.5"/>
+<polygon points="111.0,604.8 117.0,610.8 111.0,616.8 105.0,610.8" fill="#b52b65"/>
+<polygon points="312.3,731.9 318.3,737.9 312.3,743.9 306.3,737.9" fill="#b52b65"/>
+<polygon points="513.7,735.6 519.7,741.6 513.7,747.6 507.7,741.6" fill="#b52b65"/>
+<polygon points="715.0,719.8 721.0,725.8 715.0,731.8 709.0,725.8" fill="#b52b65"/>
+<text x="111.0" y="848.0" text-anchor="middle" class="label">25</text>
+<text x="312.3" y="848.0" text-anchor="middle" class="label">50</text>
+<text x="513.7" y="848.0" text-anchor="middle" class="label">75</text>
+<text x="715.0" y="848.0" text-anchor="middle" class="label">100</text>
+<line x1="127" y1="537" x2="150" y2="537" stroke="#d62728" stroke-width="3"/>
+<rect x="134.0" y="532.0" width="10" height="10" fill="#d62728"/>
+<text x="158.0" y="542.0" text-anchor="start" class="legend">SVM</text>
+<line x1="127" y1="559" x2="150" y2="559" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="139.0" cy="559.0" r="5.5" fill="#ff7f0e"/>
+<text x="158.0" y="564.0" text-anchor="start" class="legend">DTC</text>
+<line x1="127" y1="581" x2="150" y2="581" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="139.0" cy="581.0" r="5.5" fill="#1f77b4"/>
+<text x="158.0" y="586.0" text-anchor="start" class="legend">RF</text>
+<line x1="127" y1="603" x2="150" y2="603" stroke="#b52b65" stroke-width="3"/>
+<polygon points="139.0,597.0 145.0,603.0 139.0,609.0 133.0,603.0" fill="#b52b65"/>
+<text x="158.0" y="608.0" text-anchor="start" class="legend">Worst-OC baseline</text>
+<text x="413.0" y="879.0" text-anchor="middle" class="label">Number of nodes</text>
+<text x="49" y="670.0" class="label" text-anchor="middle" transform="rotate(-90 49 670.0)">Routing overhead ratio</text>
+<text x="1158.0" y="495.0" text-anchor="middle" class="title">Held-out ML Accuracy</text>
+<line x1="856" y1="822.0" x2="1460" y2="822.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="827.0" text-anchor="end" class="tick">0</text>
+<line x1="856" y1="761.2" x2="1460" y2="761.2" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="766.2" text-anchor="end" class="tick">20</text>
+<line x1="856" y1="700.4" x2="1460" y2="700.4" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="705.4" text-anchor="end" class="tick">40</text>
+<line x1="856" y1="639.6" x2="1460" y2="639.6" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="644.6" text-anchor="end" class="tick">60</text>
+<line x1="856" y1="578.8" x2="1460" y2="578.8" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="583.8" text-anchor="end" class="tick">80</text>
+<line x1="856" y1="518.0" x2="1460" y2="518.0" stroke="#d7d7d7" stroke-width="1"/>
+<text x="847.0" y="523.0" text-anchor="end" class="tick">100</text>
+<line x1="856" y1="518" x2="856" y2="822" stroke="#111" stroke-width="1.5"/>
+<line x1="856" y1="822" x2="1460" y2="822" stroke="#111" stroke-width="1.5"/>
+<rect x="906.7" y="565.4" width="100" height="256.6" fill="#d62728"/>
+<text x="956.7" y="557.4" text-anchor="middle" class="label">84.4%</text>
+<text x="956.7" y="848.0" text-anchor="middle" class="label">SVM</text>
+<rect x="1108.0" y="582.3" width="100" height="239.7" fill="#ff7f0e"/>
+<text x="1158.0" y="574.3" text-anchor="middle" class="label">78.8%</text>
+<text x="1158.0" y="848.0" text-anchor="middle" class="label">DTC</text>
+<rect x="1309.3" y="594.0" width="100" height="228.0" fill="#1f77b4"/>
+<text x="1359.3" y="586.0" text-anchor="middle" class="label">75.0%</text>
+<text x="1359.3" y="848.0" text-anchor="middle" class="label">RF</text>
+<text x="1158.0" y="879.0" text-anchor="middle" class="label">Number of nodes</text>
+<text x="794" y="670.0" class="label" text-anchor="middle" transform="rotate(-90 794 670.0)">Binary accuracy (%)</text>
+</svg>

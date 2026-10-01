@@ -1,0 +1,13 @@
+Input candidate ledger and source dataset were not modified: PASS
+Grouped split manifest reused: PASS
+Test scenarios: 300; four candidates each: PASS
+All 900 model selections mapped to actual candidate results: PASS
+Raw and partner-compatible tables are separate files: PASS
+OC payload-hop / architecture counters remain those from the raw ledger: unchanged
+PARTNER_COMPATIBLE delay is packet-loss-aware normalized delay, not raw ns-3 delivered-packet E2ED.
+Completion deadline for undelivered packets: 10000.0 ms.
+
+Strict scenario-level Top-1 audit (not the displayed partner-style accuracy):
+SVM: strict Top-1 accuracy=0.8733; strict Top-1 macro F1=0.8704
+DTC: strict Top-1 accuracy=0.4833; strict Top-1 macro F1=0.4726
+RF: strict Top-1 accuracy=0.2800; strict Top-1 macro F1=0.1784

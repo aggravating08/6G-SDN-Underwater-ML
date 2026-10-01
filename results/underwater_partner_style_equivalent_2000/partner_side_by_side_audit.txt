@@ -1,0 +1,9 @@
+Partner-style comparison implemented safely
+- 2,000 underwater scenarios / 8,000 OC candidate rows: PASS
+- Feature-rule label: density + centrality + lower speed: PASS
+- ML inputs restricted to x,y,local_density,speed: PASS
+- Grouped 1400/300/300 scenario split: PASS
+- Scenario Top-1 accuracy is primary; row-level leakage is not used: PASS
+- PDR, E2ED, and ROR are actual candidate-run outputs; no post-processing: PASS
+- No E2ED division by sqrt(node_count), no synthetic baseline degradation,
+  no forced SVM/DTC/RF order, and no top-2 accuracy substitution: PASS

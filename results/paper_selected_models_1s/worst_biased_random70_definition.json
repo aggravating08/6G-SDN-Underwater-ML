@@ -1,0 +1,19 @@
+{
+  "name": "70% worst-OC-biased random lower bound",
+  "status": "offline_non_deployable_stress_test",
+  "selection_probabilities": {
+    "offline_identified_worst_oc": 0.70,
+    "each_of_the_other_three_ocs": 0.10
+  },
+  "worst_oc_identification": {
+    "primary": "lowest packet delivery ratio",
+    "first_tie_break": "highest loss-aware delay",
+    "second_tie_break": "highest routing overhead ratio"
+  },
+  "expected_overall_metrics": {
+    "pdr_percent": 56.7725,
+    "loss_aware_delay_ms": 584.7502,
+    "routing_overhead_ratio": 0.286578
+  },
+  "warning": "This policy requires post-simulation knowledge of the worst OC. It must be reported as an offline stochastic lower-bound stress test, not as a deployable or neutral random baseline."
+}

@@ -1,0 +1,4 @@
+Model,Binary accuracy,Binary precision,Binary recall,Binary F1,Top-1 OC accuracy,Top-1 macro F1,Validation-selected hyperparameters
+SVM,0.8733333333333333,0.8057851239669421,0.65,0.7195571955719557,0.85,0.8462605156301606,"{""C"": 5, ""class_weight"": null, ""gamma"": 0.05}"
+DTC,0.8541666666666666,0.7853881278538812,0.5733333333333334,0.6628131021194605,0.7766666666666666,0.7733391003335072,"{""max_depth"": 6, ""max_features"": 3, ""min_samples_leaf"": 10, ""min_samples_split"": 40}"
+RF,0.7833333333333333,0.9347826086956522,0.14333333333333334,0.24855491329479767,0.8566666666666667,0.8553294266708901,"{""max_depth"": 3, ""max_features"": 1, ""max_samples"": 0.25, ""min_samples_leaf"": 200, ""min_samples_split"": 50, ""n_estimators"": 10}"

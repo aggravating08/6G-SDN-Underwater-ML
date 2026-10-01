@@ -1,0 +1,15 @@
+{
+  "display_name": "Baseline",
+  "policy": "fixed OC0 selection",
+  "binary_predictions_per_scenario": {
+    "OC0": 1,
+    "OC1": 0,
+    "OC2": 0,
+    "OC3": 0
+  },
+  "held_out_true_oc0_scenarios": 66,
+  "held_out_total_scenarios": 300,
+  "held_out_top1_accuracy_percent": 22.0,
+  "held_out_binary_accuracy_percent": 61.0,
+  "network_basis": "OC0 has the weakest aggregate fixed-controller result on the original 20-scenario network evaluation"
+}

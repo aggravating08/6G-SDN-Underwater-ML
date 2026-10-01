@@ -1,0 +1,86 @@
+{
+  "status": "original_grouped_test_current_control_accounting",
+  "reason": "Original 300-scenario grouped test partition rerun with aggregated topology-digest control accounting; model configurations fixed before this network rerun.",
+  "evaluation_split": "test",
+  "training_scenarios": 1400,
+  "evaluation_scenarios": 300,
+  "scenarios_per_node": {
+    "25": 75,
+    "50": 75,
+    "75": 75,
+    "100": 75
+  },
+  "loss_penalty_ms": 1000.0,
+  "baseline": "exact expected uniform-random selection among four candidates",
+  "svm": {
+    "memory": null,
+    "steps": [
+      [
+        "scaler",
+        "StandardScaler()"
+      ],
+      [
+        "classifier",
+        "SVC(C=5.0, gamma=0.02)"
+      ]
+    ],
+    "transform_input": null,
+    "verbose": false,
+    "scaler": "StandardScaler()",
+    "classifier": "SVC(C=5.0, gamma=0.02)",
+    "scaler__copy": true,
+    "scaler__with_mean": true,
+    "scaler__with_std": true,
+    "classifier__C": 5.0,
+    "classifier__break_ties": false,
+    "classifier__cache_size": 200,
+    "classifier__class_weight": null,
+    "classifier__coef0": 0.0,
+    "classifier__decision_function_shape": "ovr",
+    "classifier__degree": 3,
+    "classifier__gamma": 0.02,
+    "classifier__kernel": "rbf",
+    "classifier__max_iter": -1,
+    "classifier__probability": false,
+    "classifier__random_state": null,
+    "classifier__shrinking": true,
+    "classifier__tol": 0.001,
+    "classifier__verbose": false
+  },
+  "dtc": {
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 8,
+    "max_features": 3,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 20,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "rf": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 2,
+    "max_features": 1,
+    "max_leaf_nodes": null,
+    "max_samples": 0.35,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 20,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 15,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

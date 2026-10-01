@@ -1,0 +1,27 @@
+{
+  "status": "exploratory_not_confirmatory",
+  "selection_warning": "Capacities were inspected against development-partition outcomes; do not present this as an unbiased independent evaluation.",
+  "fit_scenarios": 1700,
+  "development_test_scenarios": 300,
+  "loss_penalty_ms": 1000.0,
+  "models": {
+    "SVM": {
+      "C": 5,
+      "gamma": 0.05
+    },
+    "DTC": {
+      "max_depth": 5,
+      "max_features": 3,
+      "min_samples_leaf": 40,
+      "min_samples_split": 10
+    },
+    "RF": {
+      "n_estimators": 5,
+      "max_depth": 2,
+      "max_features": 1,
+      "max_samples": 0.2,
+      "min_samples_leaf": 300,
+      "min_samples_split": 50
+    }
+  }
+}

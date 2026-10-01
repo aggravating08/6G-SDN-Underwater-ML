@@ -1,0 +1,5 @@
+Method,Correct OC selection accuracy (%)
+Baseline,25.0
+SVM,82.33333333333334
+DTC,76.0
+RF,48.333333333333336

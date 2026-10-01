@@ -1,0 +1,8 @@
+{
+  "status": "fresh_locked_confirmation_evaluation",
+  "scenarios_per_node": 30,
+  "total_scenarios": 120,
+  "candidate_runs": 480,
+  "loss_penalty_ms": 1000.0,
+  "model_tuning_after_generation": false
+}

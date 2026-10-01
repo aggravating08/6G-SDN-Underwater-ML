@@ -1,0 +1,5 @@
+method,pdr_percent,loss_aware_delay_ms,routing_overhead_ratio,network_scenarios
+SVM,70.625,477.515,0.187125540,20
+DTC,68.0,500.71875,0.200390598,20
+RF,62.625,538.63625,0.243196041,20
+Baseline,64.125,526.25325,0.240715466,20

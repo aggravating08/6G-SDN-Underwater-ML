@@ -1,0 +1,38 @@
+{
+  "status": "Exploratory combined validation+test descriptive result; not independent held-out evidence.",
+  "training_scenarios": 1400,
+  "reported_scenarios": 600,
+  "reported_scenarios_per_node": 150,
+  "settings": {
+    "SVM": {
+      "kernel": "rbf",
+      "C": 100,
+      "gamma": 0.02,
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "DTC": {
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": 1,
+      "min_samples_leaf": 10,
+      "min_samples_split": 80,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "RF": {
+      "bootstrap": true,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 1,
+      "max_features": 4,
+      "max_samples": 0.35,
+      "min_samples_leaf": 2,
+      "min_samples_split": 20,
+      "n_estimators": 15,
+      "n_jobs": -1,
+      "random_state": 42
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SVM": {
+    "C": 100,
+    "class_weight": "balanced",
+    "gamma": 0.02
+  },
+  "DTC": {
+    "class_weight": "balanced",
+    "max_depth": 3,
+    "max_features": null,
+    "min_samples_leaf": 2,
+    "min_samples_split": 10
+  },
+  "RF": {
+    "class_weight": "balanced",
+    "max_depth": 4,
+    "max_features": 3,
+    "max_samples": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  }
+}

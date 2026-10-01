@@ -1,0 +1,12 @@
+{
+  "status": "fresh_locked_confirmation_evaluation",
+  "scenarios_per_node": 125,
+  "total_scenarios": 500,
+  "candidate_runs": 2000,
+  "loss_penalty_ms": 1000.0,
+  "first_scenario_id": 20000,
+  "first_scenario_seed": 212000029,
+  "model_tuning_after_generation": false,
+  "svm_c": 5.0,
+  "svm_gamma": 0.02
+}

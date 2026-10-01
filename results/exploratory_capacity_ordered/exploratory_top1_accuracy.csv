@@ -1,0 +1,5 @@
+Method,Top-1 OC accuracy (%)
+SVM,85.0
+DTC,68.0
+RF,59.66666666666667
+Baseline,25.0

@@ -1,0 +1,12 @@
+quantity,paper_equation,code_function,status,units,notes
+distance,"D_ij=sqrt((xi-xj)^2+(yi-yj)^2)",Distance,exact,m,"PPT-selected 2-D override"
+sound_speed,"q(z,s,T), Eq. 9",SoundSpeed,exact,m/s,"z converted m to km; T=C/10"
+propagation_delay,"GD_ij=D_ij/q",PropagationSeconds,exact,s,
+Thorp_absorption,"Eq. 13",ThorpDbPerKm,exact,dB/km,"f in kHz"
+path_loss,"A(d,f)=d^k a(f)^d",PathLossDb,exact,dB,"k=1.5 in dB form"
+ambient_noise,"Eqs. 11-12",AmbientNoiseDb,approximation,dB_re_uPa/Hz,"components power-summed to implement physical superposition"
+SNR,"Eq. 10",SnrDb,exact,dB,"implemented in dB form"
+capacity,"integral log2(1+S/N) df",ChannelRateBps,approximation,bits/s,"60-point deterministic midpoint quadrature"
+estimated_hops,"Nhat=max(D_i,reference/projection,1)",EstimateHopsToControlReference,exact,dimensionless,"paper central-controller direction retained only as fixed mathematical reference; nonpositive progress has infinite cost"
+TD,"(Ls/r+GD)*Nhat",TdCost,exact,s,
+LDP,"Ls/r+GD+ENC",LdpCost,partial,s,"ENC paper definition is dimensionally underspecified; numerical beacon-rate term documented"

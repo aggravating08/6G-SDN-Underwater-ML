@@ -1,0 +1,13 @@
+{
+  "C": 200.0,
+  "gamma": 0.01,
+  "class_weight": null,
+  "probability": false,
+  "selection_split": "validation only",
+  "selection_order": [
+    "row-level binary accuracy",
+    "strict Top-1",
+    "binary F1",
+    "strict Top-1 macro F1"
+  ]
+}

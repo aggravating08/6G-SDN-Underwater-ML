@@ -1,0 +1,57 @@
+{
+  "model": "RandomForestClassifier",
+  "status": "exploratory_selected_configuration",
+  "parameters": {
+    "n_estimators": 15,
+    "criterion": "gini",
+    "max_depth": 2,
+    "min_samples_split": 20,
+    "min_samples_leaf": 2,
+    "max_features": 1,
+    "bootstrap": true,
+    "max_samples": 0.35,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "held_out_binary_metrics": {
+    "accuracy_percent": 77.9166666667,
+    "precision_percent": 53.9149888143,
+    "recall_percent": 80.3333333333,
+    "f1_percent": 64.5247657296,
+    "specificity_percent": 77.1111111111,
+    "balanced_accuracy_percent": 78.7222222222,
+    "roc_auc_percent": 86.7694444444,
+    "average_precision_percent": 70.0604715207,
+    "top1_controller_accuracy_percent": 77.6666666667
+  },
+  "overall_network_metrics": {
+    "pdr_percent": 62.625,
+    "loss_aware_delay_ms": 538.63624999,
+    "routing_overhead_ratio": 0.24319604133313927,
+    "dropped_packet_penalty_ms": 1000
+  },
+  "network_metrics_by_node": {
+    "25": {
+      "pdr_percent": 21.6,
+      "loss_aware_delay_ms": 828.325,
+      "routing_overhead_ratio": 0.552667579
+    },
+    "50": {
+      "pdr_percent": 62.7,
+      "loss_aware_delay_ms": 573.7090001,
+      "routing_overhead_ratio": 0.2050786
+    },
+    "75": {
+      "pdr_percent": 83.6,
+      "loss_aware_delay_ms": 379.26999981,
+      "routing_overhead_ratio": 0.19689367
+    },
+    "100": {
+      "pdr_percent": 82.6,
+      "loss_aware_delay_ms": 373.24100006,
+      "routing_overhead_ratio": 0.217676768
+    }
+  },
+  "selection_note": "Selected during exploratory screening against current evaluation outcomes. Lock this configuration and confirm it on fresh simulation seeds before treating it as an unbiased publication result."
+}

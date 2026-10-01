@@ -1,0 +1,4 @@
+Method,Correct OC selection accuracy (%)
+SVM,81.0
+DTC,73.5
+RF,61.33333333333333
